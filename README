@@ -1,3 +1,12 @@
+## Details
+This is a very simple ALU testbench written using UVM. It's more to understand the concepts of UVM - the idea is to familiarize with a certain directory sructure which can be followed for larger actual DV work and understand the concepts of UVM. It isn't necessarily the best way of doing things, rather a learning tool.
+
+## TODO:
+    1. Add a coverage monitor.
+    2. Add examples of SVA.
+    3. Add more tests.
+
+## Instructions to Run:
 setenv ALU_AGENT ~/Git/alu_tb/agents/alu
 setenv ALU_ENV ~/Git/alu_tb/env
 setenv ALU_TB ~/Git/alu_tb/tb
